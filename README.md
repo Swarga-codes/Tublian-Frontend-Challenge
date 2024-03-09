@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## 👨‍💻Tublian Frontend Challenge
 
-First, run the development server:
+### 📸Screenshots:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Screenshot 2024-03-09 234351](https://github.com/Swarga-codes/Tublian-Frontend-Challenge/assets/72154312/3180efd4-619b-4035-87fb-f36d501b1be7)
+![image](https://github.com/Swarga-codes/Tublian-Frontend-Challenge/assets/72154312/be5ce39e-f841-4a12-96b5-94d2aae7915a)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📚Description:
+##### This website was built using Next.js 14 and is built as per the Figma design provided https://www.figma.com/file/mSSwNlEXQoNnxqaLYBQC4d/LYT-Dashboard?type=design&node-id=1-712&mode=design&t=6bcQTR3IGP6ZeX18-0. The website is built and hosted in vercel. The link to the deployed site 🚀 is: https://tublian-frontend-challenge.vercel.app/.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 💻How to launch the site on local machine:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository in your local machine using ```git clone https://github.com/Swarga-codes/Tublian-Frontend-Challenge.git```.
+2. Run ```npm install``` in the CLI in the directory in which you have cloned the repo.
+3. Finally after ```npm install``` has downloaded all the required dependencies to run the project, type and execute ```npm run dev``` in the cli that will run the local development server in http://localhost:3000 of your local machine.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+# Thank you✨!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

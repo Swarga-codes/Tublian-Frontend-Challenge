@@ -4,7 +4,7 @@ import {LayoutDashboard,BarChart2, Bell, Folders, MessageCircleQuestion, Setting
 import Logo from '../assets/logo.png'
 export default function SideNav() {
   return (
-    <aside className="flex h-screen w-[218px] flex-col overflow-y-auto border-r bg-white px-2 py-8">
+    <aside className="fixed flex h-screen w-[218px] flex-col overflow-y-auto border-r bg-white px-2 py-8">
       <a href="#" className='m-auto'>
        <Image
        src={Logo}

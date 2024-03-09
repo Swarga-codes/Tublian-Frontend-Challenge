@@ -39,25 +39,27 @@ export const options = {
   },
 };
 
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+const labels = ['16-25', '25-35', '35-55', '55+'];
 
 export const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
-      data: labels.map(() => Math.floor(Math.random()*101)),
-      backgroundColor: 'rgb(255, 99, 132)',
+      label: 'Teenager',
+      data: [40,30,20,10],
+      backgroundColor:  'rgb(1, 87, 155)',
+      
+     
     },
     {
-      label: 'Dataset 2',
-      data: labels.map(() => Math.floor(Math.random()*101)),
-      backgroundColor: 'rgb(75, 192, 192)',
+      label: 'Middle-aged',
+      data: [40,30,20,10],
+      backgroundColor: 'rgb(67, 160, 71)',
     },
     {
-      label: 'Dataset 3',
-      data: labels.map(() => Math.floor(Math.random()*101)),
-      backgroundColor: 'rgb(53, 162, 235)',
+      label: 'Old',
+      data: [40,30,20,10],
+      backgroundColor:  'rgb(255, 235, 59)',
     },
   ],
 };
@@ -66,7 +68,7 @@ export default function AgeGroup() {
   return(
     <div>
     <h1 className='text-md px-10 mt-10'>Age Group</h1>
-     <Bar options={options} data={data} />
+     <Bar options={options} data={data}/>
      </div>
      );
 }

@@ -22,10 +22,10 @@ function AudienceDemography() {
             </div>
         </div>
         <div className='flex'>
-        <div className='w-1/4'>
+        <div className='w-[40%]'>
             <GenderChart/>
         </div>
-        <div className='w-3/4'>
+        <div className='w-[60%]'>
         <AgeGroup/>
         </div>
        
